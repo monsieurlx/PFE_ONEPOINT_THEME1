@@ -26,6 +26,7 @@ def home():
 def show():
     if request.method == 'POST':
       data = pd.read_csv("scored.csv")
+      data
     return render_template('index.html', data.to_html) #ou créer autre page
 
 
