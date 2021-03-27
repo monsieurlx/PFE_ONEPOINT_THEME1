@@ -1,0 +1,101 @@
+Valeur,Entité
+99,Microsoft
+98,Oracle
+97,IBM
+96,SAP
+95,Symantec
+94,EMC
+93,VMware
+92,HP
+91,Salesforce.com
+90,Intuit
+89,Adobe
+88,CA Technologies
+87,SAS*
+86,Cisco
+85,Dassault Systemes
+84,Siemens
+83,Fujitsu
+82,Autodesk
+81,Citrix
+80,Google
+79,Hitachi
+78,Apple
+77,Infor
+76,Synopsys
+75,Intel
+74,BMC
+73,Sage
+72,ADP
+71,Wolters Kluwer
+70,Red Hat
+69,OpenText
+68,SunGard*
+67,NEC
+66,Cadence Design Systems
+65,Hexagon
+64,Dell
+63,Teradata
+62,NetApp
+61,NCR
+60,Epic Systems*
+59,Constellation Software
+58,McKesson
+57,Mentor Graphics
+56,PTC
+55,Trend Micro
+54,Nuance Communications
+53,DATEV*
+52,Esri*
+51,Cerner
+50,ANSYS
+49,Informatica
+48,TIBCO*
+47,Software AG
+46,Optum*
+45,Schneider Electric
+44,Fiserv
+43,Avaya
+42,Kronos*
+41,The Attachmate Group*
+40,GE Healthcare
+39,Epicor Software
+38,Verint Systems
+37,Concur Technologies
+36,Athenahealth
+35,Kaspersky Lab*
+34,Wincor Nixdorf
+33,FICO
+32,FIS
+31,Misys*
+30,JDA Software*
+29,SWIFT
+28,Workday
+27,Genesys Telecommunications Laboratories*
+26,TOTVS
+25,NICE SYSTEMS
+24,ServiceNow
+23,CommVault
+22,Bentley Systems*
+21,Convergys
+20,Neusoft
+19,Visma
+18,Qlik
+17,Micro Focus
+16,ACI Worldwide
+15,InterSystems*
+14,Palantir*
+13,Unit4
+12,Allscripts
+11,MEDITECH
+10,Blackboard*
+9,Amazon.com
+8,Micros Systems
+7,Pegasystems
+6,NetSuite
+5,MicroStrategy
+4,ESET*
+3,Pitney Bowes
+2,SolarWinds
+1,Ultimate Software
+0,Splunk
