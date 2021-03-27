@@ -13,30 +13,21 @@ from Scoring import to_format
 #mettre les defs ici
 
 
-
 app = Flask(__name__)
 
 
-def show():
+data = pd.read_csv("scored.csv",sep = '\t')
 
-	if request.method == 'POST':
-		data = pd.read_csv("scored.csv")
-		#to_format(data)
-		message = request.form['message']
-	  data = [message]
-	return render_template('index.html',data)
-	
-@app.route('/', methods=['GET', 'POST'])
-def index():
-    if request.method == 'POST':
-        details = request.form
-        if details['form_type'] == 'show':
-            return show()
-    return render_template('index.html')
-    
+@app.route('/')
 def home():
-
     return render_template('index.html')
-    
+
+@app.route('/show',methods=['POST'])
+def show():
+    if request.method == 'POST':
+      data = pd.read_csv("scored.csv")
+    return render_template('index.html', data.to_html) #ou créer autre page
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
