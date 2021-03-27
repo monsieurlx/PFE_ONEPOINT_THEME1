@@ -2,3 +2,11 @@ Flask
 nltk
 Werkzeug
 python-dateutil
+pandas
+numpy
+sklearn
+#math
+#urllib
+#requests
+#json
+#re
